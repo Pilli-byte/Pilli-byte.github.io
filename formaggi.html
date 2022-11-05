@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Salumaio di fiducia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/salumi.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" id="cookiebanner" src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-all" id="container-height">
+
+        <div>
+            <a href="index.html">
+                <h1 id="title">Il salumaio di quartiere</h1>
+            </a>
+
+        </div>
+        <div class="container container-fluid" id="container-height">
+
+            <h3 >La nostra selezione di formaggi più pregiati</h3>
+
+        </div>
+        
+        <div class="d-flex">
+
+            <div class="container container-fluid d-inline-block mycard" onclick="myFunction()" id="div1">
+                <img src="img/formaggio1.jpg" alt="Not found">
+            </div>
+
+            <div class="container container-fluid d-inline-block mycard" >
+                <img src="img/formaggio2.jpg" alt="Not found">
+            </div>
+
+            <div class="container container-fluid d-inline-block mycard" >
+                <img src="img/formaggio3.jpg" alt="Not found">
+            </div>
+            
+            <div class="container container-fluid d-inline-block mycard">
+                <img src="https://www.mattipersalumieformaggi.it/wp-content/uploads/4.png" alt="Not found">
+            </div>
+
+        </div>
+
+        <h2>Per vedere gli altri prodotti venite a trovarci in negozio, vi aspettiamo!</h2>
+        <h3>(Siccome la prima immagine non mi piace tanto la si può cliccare per farla scomparire, ma solo la prima)</h3>
+    </div>
+
+    <script>
+        function myFunction() {
+            const element = document.getElementById("div1");
+            element.remove();
+        }
+        </script>
+</body>
+
+</html>
